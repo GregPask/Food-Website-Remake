@@ -1,0 +1,155 @@
+#our-menu {
+    // border: 1px solid blue;
+    width: 100%;
+    position: relative;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+
+    h2 {
+        text-align: center;
+        font-size: 5em;
+    }
+
+
+    // #menu-logo {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 20%;
+    //     transform: translate(-50%,0);
+    // }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #line {
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+    }
+
+}
+#menu-wrap {
+    text-align: center;
+    margin: auto;
+    // border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    // border: 1px solid red;
+    text-align: center;
+    grid-gap: 10px;
+   margin-top: 3em;
+    font-family: 'Montserrat', sans-serif;
+    // border-bottom: 2px solid red;
+
+    a {
+        background-color: none;
+        //  border: 1px solid black;
+        padding: 10px 20px;
+        font-size: 1.7em;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        color: #333333;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+    a:hover {
+        background-color: rgb(238, 2, 49);
+        color: #fff;
+    }
+
+
+    a.show {
+       background-color:  rgb(238, 2, 49);
+       color: #fff;
+    }
+    
+}
+
+
+
+.food-options {
+    display: none;
+}
+
+.food-options.show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+#line2 {
+    background-color:  rgb(238, 2, 49);
+    width: 100%;
+    margin: auto;
+    height: 2px;
+}
+
+
+
+.food-wrap {
+    display: flex;
+    padding: 1em;
+    // border: 1px solid green;
+    text-align: start;
+    margin: 1em;
+
+    h4 {
+        font-weight: bold;
+    }
+}
+
+.food-wrap-inner {
+    margin: 0em 1em;
+}
+
+
+.price {
+    float: right;
+    font-weight: 500;
+    font-size: 1em;
+    color: rgb(238, 11, 11);
+}
+
+
+
+
+
+
+
+
+@media(max-width: 912px) {
+    #menu-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media(max-width: 568px){
+    .food-wrap {
+        font-size: 0.8em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+}
+

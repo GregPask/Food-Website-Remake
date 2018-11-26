@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Ranga");
+#heroImage {
+  background-image: url("https://wallpapertag.com/wallpaper/full/b/b/b/324094-best-pizza-background-1920x1080.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+
+#hero-content {
+  font-family: 'Ranga', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center; }
+  #hero-content h3 {
+    font-size: 2.5em; }
+  #hero-content h1 {
+    font-size: 7em; }
+
+#hero-button {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  #hero-button button {
+    font-size: 1.5em;
+    background-color: red;
+    border: 0;
+    padding: 15px 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease; }
+  #hero-button button:hover {
+    background-color: #f3eaea;
+    color: #333; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.527); }
+
+@media (max-width: 1200px) {
+  #hero-button {
+    display: none; }
+  h1 {
+    font-size: 1em; }
+  #hero-content {
+    line-height: 1px; } }
+
+@media (max-width: 767px) {
+  #hero-content {
+    font-size: 0.58em; } }

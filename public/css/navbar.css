@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat");
+#header {
+  background-color: rgba(0, 0, 0, 0.712);
+  height: 110px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 500000;
+  padding: 0px; }
+
+#header-brand {
+  margin-right: 20px; }
+
+#myNav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  transition: opactiy 1s ease;
+  display: block; }
+  #myNav ul {
+    list-style-type: none;
+    height: 100%; }
+  #myNav li {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%; }
+  #myNav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    height: 100%;
+    padding: 1em;
+    line-height: 70px;
+    transition: all 0.5s ease; }
+  #myNav a:hover {
+    color: red; }
+
+#img1 {
+  width: 150px; }
+
+#myNav2 {
+  background-color: rgba(0, 0, 0, 0.712);
+  opacity: 0;
+  transition: all 1s ease; }
+  #myNav2 ul {
+    list-style-type: none; }
+  #myNav2 li {
+    padding: 1.5em; }
+  #myNav2 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; }
+  #myNav2 a:hover {
+    color: red; }
+
+#myNav2.show {
+  opacity: 1; }
+
+@media (min-width: 1199px) {
+  #myNav2 {
+    display: none !important; } }
+
+@media (max-width: 1200px) {
+  #myNav {
+    display: none; } }

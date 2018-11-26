@@ -1,0 +1,28 @@
+//Imports 
+
+@import "./navbar.scss";
+@import "./heroImage.scss";
+@import "./ourStory.scss";
+@import "./bestSellers.scss";
+@import "./menu.scss";
+@import "./footer.scss";
+
+// General CSS //
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+

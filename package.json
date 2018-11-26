@@ -1,0 +1,15 @@
+{
+  "name": "website1",
+  "version": "1.0.0",
+  "description": "1st Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w scss/ -o public/css"
+  },
+  "author": "Greg",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

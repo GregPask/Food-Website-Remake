@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat");
+.overlay2 {
+  background-color: rgba(0, 0, 0, 0.781);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute; }
+
+#best-sellers {
+  background-image: url("https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=compress&cs=tinysrgb&h=350");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  color: #fff !important; }
+  #best-sellers h3 {
+    color: #fff !important; }
+  #best-sellers p {
+    color: #fff; }
+
+#seller-content h2 {
+  color: white !important;
+  z-index: 5000; }
+
+#items {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-top: 4em; }
+  #items p {
+    font-size: 1.7em; }
+  #items strong {
+    font-size: 1.7em; }
+  #items button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ee0231;
+    color: #ee0231;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.4s ease; }
+  #items button:hover {
+    background-color: #ee0231;
+    color: #fff; }
+
+#image-wrap2 {
+  position: relative; }
+  #image-wrap2 #offer {
+    background-color: #ee0231;
+    color: #fff;
+    width: 120px;
+    position: absolute;
+    top: 42%;
+    left: 22%;
+    font-size: 1.3em;
+    padding: 2px; }
+
+#row2 {
+  position: relative; }
+  #row2 #btnMenu {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: #fff !important;
+    background-color: #ee0231;
+    z-index: 400;
+    text-align: center;
+    transform: translate(-50%, 0);
+    transition: all 1s ease; }
+  #row2 button:hover {
+    background-color: white;
+    color: black; }
